@@ -1,0 +1,88 @@
+.menu__container {
+	background-color: var(--blue-dark);
+	font-size: 14px;
+}
+
+.menu__itens:hover {
+	background-color: var(--blue-medium);
+	transition: .5s;
+}
+
+.icon__start::before {
+    content: url(../img/menu/home.png);
+}
+
+.icon__explore::before {
+	content: url(../img/menu/explore.png);
+}
+
+.icon__shorts::before {
+	content: url(../img/menu/shorts.png);
+}
+
+.icon__subscriptions::before {
+	content: url(../img/menu/subscriptions.png);
+}
+
+.icon__library::before {
+	content: url(../img/menu/video_library.png);
+}
+
+.icon__history::before {
+	content: url(../img/menu/history.png);
+}
+
+.icon__clock::before {
+	content: url(../img/menu/history_toggle_off.png);
+}
+
+.icon__like::before {
+	content: url(../img/menu/thumb_up_alt.png);
+}
+
+.icon__show::before {
+	content: url(../img/menu/keyboard_arrow_down.png);
+}
+
+.icon__deschamps::before {
+	content: url(../img/menu/avatar_deschamps.png);
+}
+
+.icon__nerd::before {
+	content: url(../img/menu/avatar_jovem_nerd.png);
+}
+
+.icon__souto::before {
+	content: url(../img/menu/avatar_souto.png);
+}
+
+.icon__iamarino::before {
+	content: url(../img/menu/avatar_atila.png);
+}
+
+.icon__ballerini::before {
+	content: url(../img/menu/avatar_rafa.png);
+}
+
+.icon__gaveta::before {
+	content: url(../img/menu/avatar_gaveta.png);
+}
+
+.icon__alura::before {
+	content: url(../img/menu/avatar_alura.png);
+}
+
+/* .menu__itens {} */
+/* .subscriptions {} */
+
+.icon__games::before {
+	content: url(../img/menu/games.png);
+}
+
+.icon__movies::before {
+	content: url(../img/menu/movies.png);
+}
+
+.icon__videos::before {
+	content: url(../img/menu/videos.png);
+}

@@ -4,13 +4,238 @@
 	<meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
 	<link rel="stylesheet" href="assets/styles/reset.css" />
-    <title>Alura Play</title>
 	<link rel="stylesheet" href="assets/styles/style.css" />
+	<link rel="stylesheet" href="assets/styles/flexbox.css" />
+    <title>Alura Play</title>
+	<link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon" />
 	<!-- JUST FOR DEV PURPOSE - node livereload -->
 	<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js"></' + 'script>')</script>
   </head>
   <body>
-	TODO ALURA PLAY COURSE
+	<header>
+	  <nav class="header__container">
+		<h1 class="logo__item" href="#"></h1>
+		<div class="header__search__item">
+		  <form action="">
+			<input id="search" class="search__input" placeholder="Search" type="search" />
+			<label class="search__label" for="search"></label>
+		  </form>
+		  <a class="header__audio" href="#"></a>
+		</div>
+		<div class="header__icons__item">
+		  <a class="header__videos" href="#"></a>
+		  <a class="header__apps" href="#"></a>
+		  <a class="header__notifications" href="#"></a>
+		  <a class="header__avatar" href="#"></a>
+		</div>
+	  </nav>
+	</header>
+	<aside class="menu__container">
+      <ul class="menu__list">
+        <li>
+          <a class="menu__itens" href="#">
+            <i class="icon__start icon-item"></i>
+            <span>Start</span>
+          </a>
+        </li>
+		<li>
+		  <a class="menu__itens" href="#">
+			<i class="icon__explore icon-item"></i>
+			<span>Explore</span>
+		  </a>
+		</li>
+		<li>
+		  <a class="menu__itens" href="#">
+			<i class="icon__shorts icon-item"></i>
+			<span>Shorts</span>
+		  </a>
+		</li>
+		<li>
+		  <a class="menu__itens" href="#">
+			<i class="icon__subscriptions icon-item"></i>
+			<span>Subscription</span>
+		  </a>
+		</li>
+		<li>
+		  <a class="menu__itens" href="#">
+			<i class="icon__library icon-item"></i>
+			<span>Library</span>
+		  </a>
+		</li>
+      </ul>
+	  <ul class="menu__list">
+		<li>
+		  <a class="menu__itens" href="#">
+			<i class="icon__history icon-item"></i>
+			<span>History</span>
+		  </a>
+		</li>
+		<li>
+          <a class="menu__itens" href="#">
+            <i class="icon__clock icon-item"></i>
+            <span>Watch Later</span>
+          </a>
+		</li>
+		<li>
+		  <a class="menu__itens" href="#">
+			<i class="icon__like icon-item"></i>
+			<span>Videos Liked</span>
+		  </a>
+		</li>
+	  </ul>
+	  <ul class="menu__list">
+		<li>
+		  <a class="menu__itens" href="#">
+			<i class="icon__show icon-item"></i>
+			<span>Show more 2</span>
+		  </a>
+		</li>
+		<li>
+		  <a class="menu__itens" href="#">
+			<i class="icon__deschamps icon-item"></i>
+			<span>Felipe Deschamps</span>
+		  </a>
+		</li>
+		<li>
+		  <a class="menu__itens" href="#">
+			<i class="icon__nerd icon-item"></i>
+			<span>Jovem Nerd</span>
+		  </a>
+		</li>
+		<li>
+		  <a class="menu__itens" href="#">
+			<i class="icon__souto icon-item"></i>
+			<span>Mário Souto</span>
+		  </a>
+		</li>
+		<li>
+		  <a class="menu__itens" href="#">
+			<i class="icon__iamarino icon-item"></i>
+			<span>Átila Iamarino</span>
+		  </a>
+		</li>
+		<li>
+		  <a class="menu__itens" href="#">
+			<i class="icon__ballerini icon-item"></i>
+			<span>Rafaella Ballerini</span>
+		  </a>
+		</li>
+		<li>
+		  <a class="menu__itens" href="#">
+			<i class="icon__gaveta icon-item"></i>
+			<span>Gaveta</span>
+		  </a>
+		</li>
+		<li>
+		  <a class="menu__itens" href="#">
+			<i class="icon__alura icon-item"></i>
+			<span>Alura</span>
+		  </a>
+		</li>
+		<li><a class="menu__itens subscriptions" href="#">Subscriptions</a></li>
+	  </ul>
+	  <ul class="menu__list">
+		<li class="games">
+		  <a class="menu__itens" href="#">
+			<i class="icon__games icon-item"></i>
+			<span>Games</span>
+		  </a>
+		</li>
+		<li class="movies">
+		  <a class="menu__itens" href="#">
+			<i class="icon__movies icon-item"></i>
+			<span>Movies</span>
+		  </a>
+		</li>
+		<li class="premium">
+		  <a class="menu__itens" href="#">
+			<i class="icon__videos icon-item"></i>
+			<span>Premium Video</span>
+		  </a>
+		</li>
+		<li class="menu__itens more_page"><a href="#">More from Page</a></li>
+	  </ul>
+	</aside>
+	<section class="upper__section__container">
+	  <a class="upper__item" href="#">Everything</a>
+	  <a class="upper__item" href="#">Discussion</a>
+	  <a class="upper__item" href="#">Live</a>
+	  <a class="upper__item" href="#">Podcasts</a>
+	  <a class="upper__item" href="#">Investments Funding</a>
+	  <a class="upper__item" href="#">Cartoons</a>
+	  <a class="upper__item" href="#">Data Science</a>
+	  <a class="upper__item" href="#">Apps</a>
+	  <a class="upper__item" href="#">Programming Language</a>
+	  <a class="upper__item" href="#">Computer Science</a>
+	  <a class="upper__item" href="#">Marketing</a>
+	</section>
+	<ul class="videos__container"></ul>
+	<footer class="footer__container">
+	  <section>
+		<h2 class="footer__title">Programming</h2>
+		<p class="footer_text">Logic</p>
+		<p>Python</p>
+		<p>Computation</p>
+		<p>Games</p>
+		<p>Java</p>
+		<p>Node JS</p>
+	  </section>
+	  <section>
+		<h2 class="footer__title">Data Science</h2>
+		<p class="footer_text">Data Science</p>
+		<p>BI</p>
+		<p>SQL</p>
+		<p>Data Base</p>
+		<p>Machine Learning</p>
+		<p>NoSQL</p>
+	  </section>
+	  <section>
+		<h2 class="footer__title">UX and Design</h2>
+		<p class="footer_text">Photoshop</p>
+		<p>Illustrator</p>
+		<p>Usability</p>
+		<p>Video and Motion</p>
+		<p>Figma</p>
+		<p>Interface</p>
+	  </section>
+	  <section>
+		<h2 class="footer__title">Innovation and Management</h2>
+		<p class="footer_text">Agile</p>
+		<p>Softskills</p>
+		<p>Leadership</p>
+		<p>Management</p>
+		<p>Startups</p>
+		<p>Selling</p>
+	  </section>
+	  <section>
+		<h2 class="footer__title">Front-end</h2>
+		<p class="footer_text">HTML</p>
+		<p>CSS</p>
+		<p>React</p>
+		<p>Angular</p>
+		<p>Javascript</p>
+		<p>JQuery</p>
+	  </section>
+	  <section>
+		<h2 class="footer__title">Devops</h2>
+		<p class="footer_text">AWS</p>
+		<p>Azure</p>
+		<p>Docker</p>
+		<p>Security</p>
+		<p>IaC</p>
+		<p>GNU/Linux</p>
+	  </section>
+	  <section>
+		<h2 class="footer__title">Mobile</h2>
+		<p class="footer_text">React Native</p>
+		<p>Fluter</p>
+		<p>iOS</p>
+		<p>Swift</p>
+		<p>Android</p>
+		<p>Kotlin</p>
+	  </section>
+	</foter>
   </body>
 </html>

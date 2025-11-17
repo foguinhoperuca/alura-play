@@ -1,0 +1,36 @@
+.header__container {
+	display: flex;
+	justify-content: space-between;
+	align-item: center;
+	position: fixed;
+	top: 0;
+}
+
+.header__search__item {
+	display: none;
+}
+
+.upper__section__container {
+	display: flex;
+	align-item: center;
+	white-space: nowrap;
+	overflow: scroll;
+	gap: 15px;
+}
+
+.footer__container {
+	display: flex;
+	flex-direction: column;
+	flex-wrtap: wrap;
+	flex-flow: column wrap;
+}
+
+@media(min-width: 834px) {
+	.header__search__item {
+		display: block;
+	}
+
+	.footer__container {
+		justify-content: space-between;
+	}
+}

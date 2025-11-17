@@ -1,0 +1,146 @@
+@import url("menu.css");
+@import url("header.css");
+
+*,
+*::before,
+*::after {
+	--blue-dark: #154580;
+	--blue-medium: #3970BE;
+	--blue-light: #E5F1FF;
+	--grey-text: #444444;
+	--grey-light: #ECECEC;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Roboto, Arial, Helvetica, sans-serif;
+	background-color: var(--blue-light);
+	position: relative;
+	width: 100%;
+	height: 100vh;
+	overflow: auto;
+	font-size: 14px;
+	color: white;
+	box-sizing: border-box;
+	text-align: center;
+}
+
+.upper__section__container {
+	height: 63px;
+	color: white;
+	font-size: 16px;
+	background-color: var(--blue-light);
+	padding: 0 20px;
+	position: fixed;
+	top: 80px;
+	right: 0;
+	left: 0;
+}
+
+.upper__item {
+	color: var(--grey-text);
+	font-size: 16px;
+	background-color: white;
+	border-radius: 20px;
+	padding: 8px 20px;
+	cursor: pointer;
+}
+
+.upper__item:hover {
+	color: white;
+	background-color: var(--blue-dark);
+	transition: .5s;
+}
+
+.videos__container {
+	color: black;
+	padding: 153px 20px 10px 20px;
+}
+
+.videos__item:hover {
+	transform: scale(1.3);
+	background-color: var(--blue-light);
+	z-index: 2;
+	transition: .5s;
+}
+
+.description-video p {
+	font-size: 14px;
+	color: #444444;
+}
+
+.footer__container {
+	width: 100%;
+	height: 875px;
+	color: var(--grey-text);
+	line-height: 1.5;
+	font-size: 16px;
+	background-color: white;
+}
+
+.footer__title {
+	color: var(--blue-medium);
+	font-weight: bold;
+	padding: 10px 0 20px 0;
+}
+
+.footer_text {}
+
+@media(min-width: 834px) {
+	body {
+		height: 100vh;
+	}
+
+	.menu__container {
+		font-size: 16px;
+	}
+
+	.menu__list {
+		padding-top: 15px;
+	}
+
+	.menu__list li {
+		width: 100%;
+	}
+
+	.upper__section__container {
+		border-top: var(--blue-medium) 1px solid;
+		border-bottom: var(--blue-medium) 1px solid;
+		width: auto;
+		left: 82px;
+	}
+
+	.videos__container {
+		padding-left: 90px;
+		padding-right: 17px;
+	}
+
+	.videos__item:hover {
+		transform: scale(1.3);
+	}
+
+	.footer__container {
+		height: 420px;
+		padding-left: 74px;
+	}
+}
+
+@media(min-width: 1440px) {
+	.upper__section__container {
+		left: 247px;
+	}
+
+	.menu__list {
+		border-bottom: 1.5px solid var(--blue-medium);
+	}
+
+	.videos__container {
+		padding-right: 10px;
+		padding-left: 248px;
+	}
+
+	.footer_container {
+		padding-left: 240px;
+		height: 225px;
+	}	
+}
