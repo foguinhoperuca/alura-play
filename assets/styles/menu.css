@@ -3,7 +3,7 @@
 	font-size: 14px;
 }
 
-.menu__itens:hover {
+.menu__items:hover {
 	background-color: var(--blue-medium);
 	transition: .5s;
 }
@@ -72,7 +72,7 @@
 	content: url(../img/menu/avatar_alura.png);
 }
 
-/* .menu__itens {} */
+/* .menu__items {} */
 /* .subscriptions {} */
 
 .icon__games::before {

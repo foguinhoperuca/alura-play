@@ -12,6 +12,7 @@
 	box-sizing: border-box;
 }
 
+
 body {
 	font-family: Roboto, Arial, Helvetica, sans-serif;
 	background-color: var(--blue-light);
@@ -107,7 +108,7 @@ body {
 		border-top: var(--blue-medium) 1px solid;
 		border-bottom: var(--blue-medium) 1px solid;
 		width: auto;
-		left: 82px;
+		left: 100px;
 	}
 
 	.videos__container {
