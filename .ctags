@@ -6,5 +6,6 @@
 --exclude=media 
 --exclude=.mypy_cache 
 --exclude=*~
+--exclude=*#
 --exclude=tags
 --exclude=TAGS
