@@ -41,6 +41,14 @@
 /* 	/\* FIXME is missing from start version *\/ */
 /* } */
 
+.header__github {
+	background-size: 100%;
+	background-image: url(../img/header/github.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+	padding: 10px;
+}
+
 .header__videos {
 	background-image: url(../img/header/video_call.png);
 	background-repeat: no-repeat;
